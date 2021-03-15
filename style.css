@@ -1,0 +1,96 @@
+/* CSS files add styling rules to your content */
+
+body {
+  transition-duration: 0.2s;
+  text-align: center;
+  font-family: monospace;
+  table-align: center;
+  margin: auto;
+}
+
+.long {
+  width: 100%;
+}
+
+.none {
+  display: none !important;
+}
+
+.block {
+  display: block;
+}
+
+.bigblur {
+  font-size: 2em;
+}
+
+.blur {
+  text-shadow: 5px 5px 5px white;
+  font-weight: bold;
+}
+
+button {
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tabButton {
+  font-family: sans-serif;
+  color: black;
+  background: white;
+  border-radius: 5px;
+  border-color: black;
+  border-weight: 10px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.layerbutton {
+  height: 40px;
+  display: block;
+  border-radius: 5px;
+  border-weight: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-size: 15pt;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.layer1 {
+  background-color: #617ade;
+  border-color: #0000ff;
+	color: #0000ff;
+  border-style: solid;
+}
+
+.layerDiv {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.laysubtab {
+  height: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.squareMediumButton {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: block;
+  font-size: 1em;
+}
+
+.center {
+  margin: auto;
+}
