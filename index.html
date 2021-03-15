@@ -4,15 +4,23 @@
     <title>Time Layers</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <script src="notify.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="extend/ExpantaNum.js" defer></script>
+    <script src="extend/jquery.js" defer></script>
+    <script src="extend/notify.js" defer></script>
+    <script src="game/ENplus.js" defer></script>
+    <script src="game/newgame.js" defer></script>
+    <script src="game/saveload.js" defer></script>
+    <script src="game/reset.js" defer></script>
+    <script src="game/toggle.js" defer></script>
+    <script src="game/layer_1.js" defer></script>
+    <script src="game/script.js" defer></script>
   </head>
   <body>
     <div id="game">
       <div id="top">
-        <span style="font-size:32px">The universe is <span class="blur" id="universeAge">0s</span> old</span>
+        <span style="font-size: 2em;">The universe is <span class="blur" id="universeAge">0 seconds</span> old</span>
         <br />
-        <span>Each real time second is equivalent to <span id="overallSpeed">1s</span> of universe time</span>
+        <span>Each real time second is equivalent to <span id="overallSpeed0">{{overallSpeed(0).toTime()}}</span< of universe time</span>
       </div>
     </div>
   </body>
